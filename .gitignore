@@ -1,0 +1,14 @@
+# ignore all .4 or .5 files
+*.[45]
+
+# but do track rt.4 even though we are ignoreing .a files above
+!rt.4
+
+# only ignore the TODO file in the current directory, not subdir /TODO
+/TODO
+
+# ignore all files in any directory named aaabb
+aaabb/
+
+
+
